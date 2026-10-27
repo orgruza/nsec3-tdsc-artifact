@@ -1,0 +1,15 @@
+# Large measurement datasets (distributed via GitHub Releases)
+/tranco-measurement/data/raw/
+/tranco-measurement/data/processed/
+/benchmark-data/measurements/
+/resolver-profiling/measurements/
+
+# Compressed archives
+*.tar
+*.tar.gz
+*.tar.zst
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/
