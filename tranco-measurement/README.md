@@ -112,3 +112,26 @@ as the signed-domain count.
 Among the 80,013 signed domains, 51,533 were classified as
 NSEC, 28,136 as NSEC3, and 344 had neither denial mechanism
 observed.
+
+## Complete measurement dataset
+
+The complete Tranco measurement dataset is available as GitHub
+Release assets:
+
+https://github.com/orgruza/nsec3-tdsc-artifact/releases/tag/v1.0
+
+Download:
+- `tranco-measurement.tar.gz`
+- `tranco-measurement.tar.gz.sha256`
+
+Verify and extract:
+
+```bash
+sha256sum -c tranco-measurement.tar.gz.sha256
+tar -xzf tranco-measurement.tar.gz
+
+```
+
+The archive extracts into `tranco-measurement/data/` and contains
+the raw JSONL measurements, deduplicated JSONL measurements, and
+the final classification CSV.
