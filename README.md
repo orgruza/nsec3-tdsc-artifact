@@ -1,3 +1,7 @@
+
+
+
+
 # Artifact Submission for "Same Attack, Different Failures: Architecture Shapes NSEC3 Mitigation Effectiveness"
 
 This contains benchmark measurements of DNS resolvers under NSEC3 attack, additional resolver profiling data, and a measurement of NSEC3 deployment across the Tranco Top-1M domains.
@@ -31,7 +35,7 @@ The `benchmark-data/` folder contains the resolver evaluation data and a termina
 
 <video src="benchmark-data/demo.mp4" controls width="100%"></video>
 
-[Viewer demo](benchmark-data/demo.mp4)
+[Viewer demo](https://github.com/user-attachments/assets/6f04f4d1-fc18-4ff6-83aa-e02c40f8ffd8)
 
 The data contains measurements of BIND 9.16.1, 9.18.24, and 9.20.13, Knot Resolver 5.6.0, 5.7.3, and 6.1.0, PowerDNS Recursor 4.8.2, 5.0.5, and 5.2.4, and Unbound 1.17.1 and 1.24.0 under attack at different attack rates.
 
